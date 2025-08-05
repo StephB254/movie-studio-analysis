@@ -1,3 +1,49 @@
+Repository Structure
+
+movie-studio-analysis/
+│── data/ 
+
+│   ├── bom.movie_gross.csv
+
+│   ├── tn.movie_budgets.csv
+
+│   ├── tmdb.movies.csv
+
+│   ├── rt.movie_info.tsv
+
+│   ├── rt.reviews.tsv
+
+│   └── im.db (Git LFS or cloud storage)
+
+│
+│── reports/
+
+│   └── data_report.pdf
+
+│
+
+│── visuals/
+
+│   ├── revenue_by_genre.png
+
+│   ├── roi_by_genre.png
+
+│   ├── ratings_vs_revenue.png
+
+│   ├── ratings_by_genre.png
+
+│   └── revenue_by_month.png
+
+│
+
+│── presentation/
+
+│   │──presentation.pdf
+
+│── student.ipynb
+
+│── README.md
+
 Movie Studio Analysis
 
 Overview
@@ -90,51 +136,6 @@ Prioritize scripts with high audience appeal (ratings).
 
 Consider franchises and sequels for sustained revenue.
 
-Repository Structure
-
-movie-studio-analysis/
-│── data/ 
-
-│   ├── bom.movie_gross.csv
-
-│   ├── tn.movie_budgets.csv
-
-│   ├── tmdb.movies.csv
-
-│   ├── rt.movie_info.tsv
-
-│   ├── rt.reviews.tsv
-
-│   └── im.db (Git LFS or cloud storage)
-
-│
-│── reports/
-
-│   └── data_report.pdf
-
-│
-
-│── visuals/
-
-│   ├── revenue_by_genre.png
-
-│   ├── roi_by_genre.png
-
-│   ├── ratings_vs_revenue.png
-
-│   ├── ratings_by_genre.png
-
-│   └── revenue_by_month.png
-
-│
-
-│── presentation/
-
-│   │──presentation.pdf
-
-│── student.ipynb
-
-│── README.md
 
 
 Tech Stack
